@@ -31,3 +31,4 @@ This is a project made by Tejas Protim Neog of Class - V of Sanskriti the Guruku
 * [ Font Awesome](https://fontawesome.com)
 * [ Google Fonts](https://fonts.google.com)
 * [ Visual Studio Code](https://code.visualstudio.com/)
+* [ ShareX(Screenshot](https://getsharex.com/)
