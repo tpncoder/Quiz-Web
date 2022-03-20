@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz</title>
+    <script
+      src="https://kit.fontawesome.com/3d12e93f24.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Audiowide|Sofia|Trirong|Open+Sans|Poppins|Source+Sans+Pro"
+    />
+    <link rel="stylesheet" href="styles.css" />
+
+  </head>
+  <body>
+    <div class="hero" id = "hero">
+      <div class="centerquiz">
+        <div class="logo">
+          <a href="/Dashboards/index.html">Qfast</a>
+        </div>
+        <h1 id="question">Q4.&nbsp&nbspWhich of the following would print Hello World in JavaScript?</h1>
+        <div id="options">
+          <button id = "option1" onclick="showNext()">console.write("Hello World");</button>
+          <button type="button" id = "option2" onclick="showNext()">console.log("Hello World");</button>
+          <button type="button" id = "option3" onclick="showNext()">console.log(Hello World)</button>
+          <button type="button" id = "option4" onclick="showNext()">console.print("Hello World");</button>
+      </div>
+      <button id="next"><a href = "/Replay/index.html">Next</a></button>
+      <div class="centerquiz" id = "centerquiz">
+        <div class="logo">Correct Answer: B</div>
+        <p>Among the following only console.log("Hello World"); displays Hello World.</p>
+      </div>
+      <script src="index.js"></script>
+    </div>
+  </body>
+</html>

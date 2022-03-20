@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz</title>
+    <script
+      src="https://kit.fontawesome.com/3d12e93f24.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Audiowide|Sofia|Trirong|Open+Sans|Poppins|Source+Sans+Pro"
+    />
+    <link rel="stylesheet" href="styles.css" />
+
+  </head>
+  <body>
+    <div class="hero" id = "hero">
+      <div class="centerquiz">
+        <div class="logo">
+          <a href="/Home/index.html">Qfast</a>
+        </div>
+        <h1 id="question">Q4.&nbsp&nbsp What is the decimal place of 3 in 1.9837</h1>
+        <div id="options">
+          <button id = "option1" onclick="showNext()">tenths</button>
+          <button type="button" id = "option2" onclick="showNext()">thousandths</button>
+          <button type="button" id = "option3" onclick="showNext()">hundreths</button>
+          <button type="button" id = "option4" onclick="showNext()">ten thousandths</button>
+      </div>
+      <button id="next"><a href = "/Replay/index.html">Next</a></button>
+      <div class="centerquiz" id = "centerquiz">
+        <div class="logo">Correct Answer: B</div>
+        <p>The decimal place of 3 in 1.9837 is in the thousandths place</p>
+      </div>
+      <script src="index.js"></script>
+    </div>
+  </body>
+</html>

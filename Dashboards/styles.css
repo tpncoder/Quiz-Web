@@ -1,0 +1,27 @@
+.hero{
+    width:95vw;
+    height:92vh;
+    background-image:linear-gradient(#136eb3,#147ecf );
+    margin-top:1.7rem;
+    margin-left:1.7rem;
+    border-radius:10px;
+    color:#f1f1f1;
+}
+
+.btn-container{
+    display:block;
+}
+
+h1{
+    margin-left: 10vw;
+    padding-top: 10vh;
+}
+
+h4{
+    margin-left: 10vw;
+}
+
+.card{
+    margin-left: 2vw;
+    margin-top: 7vh;
+}

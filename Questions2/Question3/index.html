@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz</title>
+    <script
+      src="https://kit.fontawesome.com/3d12e93f24.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Audiowide|Sofia|Trirong|Open+Sans|Poppins|Source+Sans+Pro"
+    />
+    <link rel="stylesheet" href="styles.css" />
+
+  </head>
+  <body>
+    <div class="hero" id = "hero">
+      <div class="centerquiz">
+        <div class="logo">
+          <a href="/Home/index.html">Qfast</a>
+        </div>
+        <h1 id="question">Q3.&nbsp&nbspName the riverbank on which the Taj Mahal is situated?</h1>
+        <div id="options">
+          <button id = "option1" onclick="showNext()">Godaveri</button>
+          <button type="button" id = "option2" onclick="showNext()">Ganges</button>
+          <button type="button" id = "option3" onclick="showNext()">Krishna</button>
+          <button type="button" id = "option4" onclick="showNext()">Yamuna</button>
+      </div>
+      <button id="next"><a href = "/Questions2/Question4/index.html">Next</a></button>
+      <div class="centerquiz" id = "centerquiz">
+        <div class="logo">Correct Answer: D</div>
+        <p>Taj Mahal is situated on the riverbank of Yamuna</p>
+      </div>
+      <script src="index.js"></script>
+    </div>
+  </body>
+</html>

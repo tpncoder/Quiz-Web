@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: linear-gradient(#136eb3, #147ecf);
+  font-family: Poppins;
+}
+
+.logo a{
+  text-decoration: none;
+  color: black;
+  font-size: 2em;
+}
+.hero {
+  width: 100%;
+  height: 87vh;
+}
+
+.centerquiz {
+  margin: 13vh auto;
+  background-color: whitesmoke;
+  width: 55vw;
+  height: 63vh;
+  border-radius: 5px;
+}
+
+img {
+  background-color: whitesmoke;
+  border-radius: 5px 5px 0px 0px;
+  width: 23vh;
+  height: 8vh;
+  margin-top: 2vh;
+  padding: 0;
+}
+
+.logo {
+  border-bottom: 1px solid darkgrey;
+  font-size: 30px;
+  font-family: Source Sans Pro;
+  margin: 2vw;
+}
+
+#submit-btn {
+  border: 2px solid #136eb3;
+  border-radius: 20px;
+  margin-top: 10vh;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  font-size: 15px;
+  padding-left: 4vw;
+  padding-right: 4vw;
+  font-family: Poppins;
+  background-color: whitesmoke;
+  cursor: pointer;
+  margin-left: 70%;
+}
+
+#submit-btn:hover {
+  background-color: lightgray;
+}
+
+#question {
+  margin-left: 3vw;
+  margin-top: 5vh;
+  font-size: 25px;
+  margin-bottom: 3vh;
+}
+
+input {
+  margin-left: 5vw;
+  margin-bottom: 3vh;
+  width: 10px;
+  cursor: pointer;
+}
+
+input:hover {
+  width: 15px;
+}
+label {
+  margin-left: 2vw;
+}
+
+.one,
+.two,
+.three,
+.four {
+  font-size: 20px;
+}
+
+.one.correct{
+  color: rgb(15, 143, 15);
+}
+.one.wrong{
+  color: rgb(143, 15, 15);
+}
+
+
+#options{
+  width:93%;
+  margin:auto;
+}
+
+button{
+  width:100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  font-family: Poppins;
+  font-size: 17px;
+  background-color: #147ecf;
+  border:none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover{
+  background-color: #136eb3;
+}
+
+#next{
+  margin-top:10vh;
+  border: 1px solid #f4f4f4;
+  max-width: 13.5vw;
+  border-radius: 30px;
+  margin-left: 70%;
+  display:none;
+}
+
+#next.done{
+  display:inline-block;
+}
+
+#next a{
+  color:white;
+  text-decoration:none;
+}
+
+#centerquiz{
+  text-align:center;
+  height:23vh;
+  margin-bottom: 10vh;
+  border-radius: 5px;
+  display:none;
+}
